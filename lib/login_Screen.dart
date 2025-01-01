@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Login extends StatelessWidget {
+class LoginScreen extends StatelessWidget {
   var emailController = TextEditingController();
   var passwordController = TextEditingController();
 
-  static const String routeName = "Login";
+  static const String routeName = "LoginScreen ";
 
   @override
   Widget build(BuildContext context) {

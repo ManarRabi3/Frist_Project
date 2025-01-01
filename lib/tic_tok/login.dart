@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_projects/tic_tok/players_model.dart';
 import 'package:flutter_projects/tic_tok/xo%20game.dart';
 
-class LoginScreen extends StatelessWidget {
+class Login extends StatelessWidget {
   static const String routeName = "Login";
 
-  LoginScreen({super.key});
+  Login({super.key});
 
   String player1 = "";
   String player2 = "";
